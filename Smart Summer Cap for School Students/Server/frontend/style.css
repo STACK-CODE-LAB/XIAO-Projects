@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+.topbar {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+.map-container {
+  position: relative;
+  width: 70%;
+}
+
+#map {
+  width: 100%;
+}
+
+.marker {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.panel {
+  width: 30%;
+  background: white;
+  padding: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Smart Cap Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topbar">
+    <h2>Smart Cap Dashboard</h2>
+    <span id="status">Connecting...</span>
+  </div>
+
+  <div class="container">
+
+    <div class="map-container">
+      <img src="map.png" id="map">
+
+
+      <div class="marker" style="top:40%; left:30%;" data-id="1"></div>
+      <div class="marker" style="top:70%; left:60%;" data-id="2"></div>
+    </div>
+
+    <div class="panel">
+      <h3 id="panel-title">Select a monitor</h3>
+      <div id="panel-content"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
